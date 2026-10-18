@@ -46,3 +46,10 @@ So for anything quantitative, like satellite imagery, I'd use a pixel-loss model
 output for visuals only. Without ground truth, one check you can still do is to downscale the
 output and compare it with the input (LR-PSNR in `results/summary.md`). It catches some changes,
 but not invented fine detail.
+
+## References
+
+- Lim et al., *Enhanced Deep Residual Networks for Single Image Super-Resolution* (EDSR), 2017
+- Wang et al., *ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks*, 2018
+- Zhang et al., *The Unreasonable Effectiveness of Deep Features as a Perceptual Metric* (LPIPS), 2018
+- Libraries: [torchsr](https://github.com/Coloquinte/torchSR), [spandrel](https://github.com/chaiNNer-org/spandrel), [lpips](https://github.com/richzhang/PerceptualSimilarity)
