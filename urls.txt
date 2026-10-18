@@ -1,0 +1,7 @@
+# Test images (HR only)
+https://huggingface.co/datasets/eugenesiow/Set5/resolve/main/data/Set5_HR.tar.gz       -> data/test/Set5/
+https://huggingface.co/datasets/eugenesiow/Set14/resolve/main/data/Set14_HR.tar.gz     -> data/test/Set14/
+https://huggingface.co/datasets/eugenesiow/BSD100/resolve/main/data/BSD100_HR.tar.gz   -> data/test/BSD100/
+
+# Official ESRGAN weights (xinntao/ESRGAN, mirrored on HuggingFace) -> pretrained/
+https://huggingface.co/kadirnar/RRDB_ESRGAN_x4/resolve/main/RRDB_ESRGAN_x4.pth         -> pretrained/RRDB_ESRGAN_x4.pth

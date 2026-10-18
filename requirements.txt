@@ -1,0 +1,11 @@
+# Install PyTorch first with the CUDA build matching your GPU, e.g. (RTX 50xx needs cu128+):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# Tested with: torch 2.11.0+cu128, torchvision 0.26.0+cu128, Python 3.13
+torchsr==1.0.4        # pretrained EDSR
+spandrel==0.4.2       # loads the official ESRGAN weights
+lpips==0.1.4
+scikit-image>=0.22
+pandas>=2.0
+matplotlib>=3.8
+numpy>=2.0
+pillow>=10.0
